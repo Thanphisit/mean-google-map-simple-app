@@ -1,0 +1,29 @@
+{
+  "name": "mean-google-map-simple-app",
+  "version": "1.0.0",
+  "description": "This is simple app MEAN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+      "express": "~4.15.2",
+      "body-parser": "~1.17.1",
+      "winston": "~2.3.1",
+      "winston-daily-rotate-file": "~1.4.6",
+      "mongoose": "~4.11.2",
+      "jsonwebtoken": "~7.4.1",
+      "method-override": "~2.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanphisit/mean-google-map-simple-app.git"
+  },
+  "author": "MooHyong Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanphisit/mean-google-map-simple-app/issues"
+  },
+  "homepage": "https://github.com/Thanphisit/mean-google-map-simple-app#readme"
+}
